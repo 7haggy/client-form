@@ -87,6 +87,7 @@
                         v-model="clients"
                         :options="['Иванов', 'Захаров', 'Чернышева']"
                     />
+                    <div class="error-label" v-if="$v.clients.$error">Обязательное поле</div>
                 </div>
                 <div class="el-group">
                     <div class="label">Лечащий врач</div>
