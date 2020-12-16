@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: "/feedback-form/",
+    publicPath: "/client-form/",
 };
